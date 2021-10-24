@@ -59,3 +59,18 @@ Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, the
 .footer-menu ul li.current-menu-item a {
   color: #ff9292;
 }
+
+/* General */
+
+/* Theme support css start */
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Theme support css end */
