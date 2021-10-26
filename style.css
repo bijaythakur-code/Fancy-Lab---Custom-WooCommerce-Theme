@@ -11,6 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post, threaded-comments
 */
 
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
 /* Header - Main Menu */
 .main-menu {
   padding: 0;
@@ -31,6 +34,16 @@ Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, the
 
 .main-menu ul li:last-child {
   margin: 0;
+}
+
+/* Display submenu when hover */
+.main-menu .dropdown:hover > .dropdown-menu,
+.main-menu .dropup:hover > .dropdown-menu {
+  display: block;
+}
+
+.main-menu .navbar-toggler-icon {
+  background-image: url('img/hamburger-menu.svg');
 }
 
 /* Footer - Footer Menu */
