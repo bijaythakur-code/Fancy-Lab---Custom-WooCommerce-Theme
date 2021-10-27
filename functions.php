@@ -69,6 +69,28 @@ add_action( 'after_setup_theme', 'register_navwalker' );
  add_action( 'after_setup_theme', 'fancy_lab_config', 0 );
 //  menu end
 
+/**
+ * If WooCommerce is active, we want to enqueue a file
+ * with a couple of template overrides
+ */
 if( class_exists( 'WooCommerce' ) ){
   require get_template_directory(). '/inc/wc-modifications.php';
+}
+
+
+/**
+ * Show cart contents / total Ajax
+ */
+add_filter( 'woocommerce_add_to_cart_fragments', 'fancy_lab_woocommerce_header_add_to_cart_fragment' );
+
+function fancy_lab_woocommerce_header_add_to_cart_fragment( $fragments ) {
+	global $woocommerce;
+
+	ob_start();
+
+	?>
+	<span class="items"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+	<?php
+	$fragments['span.items'] = ob_get_clean();
+	return $fragments;
 }
