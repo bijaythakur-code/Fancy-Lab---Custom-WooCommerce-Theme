@@ -38,10 +38,21 @@ get_header();
               </div>
             </header>
             <div class="content">
+              <?php
+              wp_link_pages(
+                array(
+                  'before'      =>  '<p class="inner-pagination">' . 'Pages',
+                  'after'       =>  '</p>',
+                )
+              );
+              ?>
               <?php the_content(); ?>
             </div>
           </article>
         <?php
+          if (comments_open() || get_comments_number()) :
+            comments_template();
+          endif;
         endwhile;
         ?>
       </div>
