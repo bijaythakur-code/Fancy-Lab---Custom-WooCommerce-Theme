@@ -28,12 +28,12 @@ get_header();
               get_template_part('template-parts/content', 'archive');
             endwhile;
             the_posts_pagination(array(
-              'prev_text'      =>  'Previous',
-              'next_text'      =>  'Next',
+              'prev_text'      =>  __('Previous', 'fancy-lab'),
+              'next_text'      =>  __('Next', 'fancy-lab'),
             ));
           else :
           ?>
-            <p>Nothing to display.</p>
+            <p><?php _e('Nothing to display.', 'fancy-lab'); ?></p>
           <?php endif; ?>
         </div>
         <?php get_sidebar(); ?>

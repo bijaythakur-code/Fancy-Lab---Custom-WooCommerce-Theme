@@ -1,0 +1,401 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Fancy Lab Pot v1.0.0\n"
+"POT-Creation-Date: "
+"2021-11-14 09:02+0545\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:19
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"Unfortunately, the page "
+"you tried to reach does "
+"not exist on this site!"
+msgstr ""
+
+#: 404.php:24
+msgid ""
+"Take a look at Our "
+"Latest Posts"
+msgstr ""
+
+#: archive.php:31
+#: index.php:34
+#: search.php:32
+msgid "Previous"
+msgstr ""
+
+#: archive.php:32
+#: index.php:35
+#: search.php:33
+msgid "Next"
+msgstr ""
+
+#: archive.php:36
+#: index.php:39
+#: search.php:37
+#: template-home.php:189
+msgid "Nothing to display."
+msgstr ""
+
+#: comments.php:30
+#, php-format
+msgctxt "comments title"
+msgid ""
+"One thought on &ldquo;"
+"%s&rdquo;"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgctxt "comments title"
+msgid ""
+"%1$s thought on &ldquo;"
+"%2$s&rdquo;"
+msgid_plural ""
+"%1$s thoughts on &ldquo;"
+"%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:71
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: footer.php:40
+msgid ""
+"Copyright X - All Rights "
+"Reserved"
+msgstr ""
+
+#: functions.php:51
+msgid "Fancy Lab Main Menu"
+msgstr ""
+
+#: functions.php:52
+msgid ""
+"Fancy Lab Footer Menu"
+msgstr ""
+
+#: functions.php:138
+msgid ""
+"Fancy Lab Main Sidebar"
+msgstr ""
+
+#: functions.php:140
+#: functions.php:158
+#: functions.php:167
+#: functions.php:176
+msgid ""
+"Drag and drop your "
+"widgets here"
+msgstr ""
+
+#: functions.php:147
+msgid "Sidebar Shop"
+msgstr ""
+
+#: functions.php:149
+msgid ""
+"Drag and drop your "
+"WooCommerce widgets here"
+msgstr ""
+
+#: functions.php:156
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: functions.php:165
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: functions.php:174
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: header.php:54
+msgid "My Account"
+msgstr ""
+
+#: header.php:57
+msgid "Logout"
+msgstr ""
+
+#: header.php:61
+msgid "Login / Register"
+msgstr ""
+
+#: header.php:75
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/class-wp-bootstrap-navwalker.php:375
+msgid "Add a menu"
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "Copyright Settings"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "Copyright Section"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid ""
+"Please, add your "
+"copyright information "
+"here"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Slider Section"
+msgstr ""
+
+#: inc/customizer.php:67
+#: inc/customizer.php:68
+msgid "Set slider page 1"
+msgstr ""
+
+#: inc/customizer.php:88
+#: inc/customizer.php:89
+msgid ""
+"Button Text for Page 1"
+msgstr ""
+
+#: inc/customizer.php:109
+#: inc/customizer.php:110
+msgid "URL for Page 1"
+msgstr ""
+
+#: inc/customizer.php:132
+#: inc/customizer.php:133
+msgid "Set slider page 2"
+msgstr ""
+
+#: inc/customizer.php:153
+#: inc/customizer.php:154
+msgid ""
+"Button Text for Page 2"
+msgstr ""
+
+#: inc/customizer.php:174
+#: inc/customizer.php:175
+msgid "URL for Page 2"
+msgstr ""
+
+#: inc/customizer.php:197
+#: inc/customizer.php:198
+msgid "Set slider page 3"
+msgstr ""
+
+#: inc/customizer.php:218
+#: inc/customizer.php:219
+msgid ""
+"Button Text for Page 3"
+msgstr ""
+
+#: inc/customizer.php:239
+#: inc/customizer.php:240
+msgid "URL for Page 3"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid ""
+"Home Page Products and "
+"Blog Settings"
+msgstr ""
+
+#: inc/customizer.php:253
+msgid "Home Page Section"
+msgstr ""
+
+#: inc/customizer.php:270
+#: inc/customizer.php:271
+msgid ""
+"Popular Products Title"
+msgstr ""
+
+#: inc/customizer.php:290
+#: inc/customizer.php:291
+msgid ""
+"Popular Products Max "
+"Number"
+msgstr ""
+
+#: inc/customizer.php:310
+#: inc/customizer.php:311
+msgid ""
+"Popular Products Max "
+"Columns"
+msgstr ""
+
+#: inc/customizer.php:332
+#: inc/customizer.php:333
+msgid "New Arrivals Title"
+msgstr ""
+
+#: inc/customizer.php:352
+#: inc/customizer.php:353
+msgid ""
+"New Arrivals Max Number"
+msgstr ""
+
+#: inc/customizer.php:372
+#: inc/customizer.php:373
+msgid ""
+"New Arrivals Max Columns"
+msgstr ""
+
+#: inc/customizer.php:394
+#: inc/customizer.php:395
+msgid ""
+"Deal of the Week Title"
+msgstr ""
+
+#: inc/customizer.php:414
+msgid ""
+"Show Deal of the Week?"
+msgstr ""
+
+#: inc/customizer.php:433
+msgid ""
+"Deal of the Week Product "
+"ID"
+msgstr ""
+
+#: inc/customizer.php:434
+msgid ""
+"Product ID to Display"
+msgstr ""
+
+#: inc/customizer.php:455
+#: inc/customizer.php:456
+msgid "Blog Section Title"
+msgstr ""
+
+#: search.php:18
+msgid "Search results for"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-home.php:77
+msgid "Popular products"
+msgstr ""
+
+#: template-home.php:85
+msgid "New Arrivals"
+msgstr ""
+
+#: template-home.php:106
+msgid "Deal of the Week"
+msgstr ""
+
+#: template-home.php:115
+msgid "% OFF"
+msgstr ""
+
+#: template-home.php:138
+msgid "Add to Cart"
+msgstr ""
+
+#: template-home.php:153
+msgid "News From Our Blog"
+msgstr ""
+
+#: template-parts/content-archive.php:25
+#: template-parts/content-search.php:25
+#: template-parts/content-single.php:16
+#: template-parts/content.php:25
+msgid "Published by"
+msgstr ""
+
+#: template-parts/content-archive.php:25
+#: template-parts/content-search.php:25
+#: template-parts/content-single.php:16
+#: template-parts/content.php:25
+msgid "on"
+msgstr ""
+
+#: template-parts/content-archive.php:28
+#: template-parts/content-search.php:28
+#: template-parts/content-single.php:18
+#: template-parts/content.php:28
+msgid "Categories"
+msgstr ""
+
+#: template-parts/content-archive.php:32
+#: template-parts/content-search.php:32
+#: template-parts/content-single.php:22
+#: template-parts/content.php:32
+msgid "Tags"
+msgstr ""
+
+#: template-parts/content-single.php:38
+msgid "Pages"
+msgstr ""

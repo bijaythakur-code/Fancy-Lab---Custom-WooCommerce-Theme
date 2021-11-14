@@ -437,6 +437,39 @@ header .brand img {
 }
 
 /* Footer - Footer Menu */
+.footer-widgets {
+  padding: 35px 0;
+  background: #515151;
+  color: #aeaeae;
+}
+
+.footer-widgets h4 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-widgets p {
+  margin-bottom: 0.5rem;
+}
+
+.footer-widgets strong {
+  color: #fff;
+}
+
+.footer-widgets ul li a {
+  color: #aeaeae;
+}
+
+.copyright {
+  background-color: #000000;
+  color: #939393;
+  padding: 20px 0;
+}
+
+.copyright p {
+  margin: 0;
+}
+
 .footer-menu ul,
 .footer-widgets ul {
   list-style: none;
@@ -712,6 +745,45 @@ header .brand img {
   color: #fff;
 }
 
+/* My Account */
+.woocommerce-MyAccount-navigation a {
+  color: #000000;
+}
+
+.woocommerce-MyAccount-navigation .is-active {
+  font-weight: 700;
+  background-color: #000000;
+}
+
+.woocommerce-MyAccount-navigation .is-active a {
+  color: #fff;
+}
+
+.woocommerce-MyAccount-navigation ul {
+  list-style: none;
+  padding: 0;
+  border: 1px solid #f3f3f3;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+  border-bottom: 1px solid #f3f3f3;
+  padding: 0.3rem 0.7rem;
+}
+
+.woocommerce-MyAccount-navigation ul li:last-child {
+  border-bottom: 0;
+}
+
+.woocommerce table.my_account_orders {
+  font-size: inherit;
+}
+
+/* Store Notice */
+.woocommerce-store-notice,
+p.demo_store {
+  background-color: #750000;
+}
+
 /* Blog and Archive Pages */
 .blog article,
 .archive article {
@@ -944,6 +1016,32 @@ li.comment {
   display: none;
 }
 
+/* WooCommerce Widgets */
+.woocommerce .shop-content .widget-wrapper {
+  margin: 0 0 2rem;
+  border-bottom: 1px solid #eee;
+  padding: 0 1em 2em 0;
+}
+
+.woocommerce .shop-content .widget-wrapper h4 {
+  padding: 0 0 0.7rem 0;
+}
+
+.woocommerce .shop-content .widget-wrapper > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.woocommerce .shop-content .widget-wrapper > ul li ul {
+  list-style: none;
+}
+
+.woocommerce .shop-content .widget-wrapper ul li span,
+.woocommerce .shop-content .widget-wrapper ul li ul li span {
+  float: right;
+}
+
 /* General */
 
 embed,
@@ -1002,6 +1100,18 @@ ul li a,
   .woocommerce .col2-set .col-2 {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .footer-widgets .col-12 {
+    margin-bottom: 25px;
+  }
+
+  .footer-widgets .col-12:last-child {
+    margin-bottom: 0;
+  }
+
+  .copyright-text {
+    margin-bottom: 10px;
   }
 
   .brand {

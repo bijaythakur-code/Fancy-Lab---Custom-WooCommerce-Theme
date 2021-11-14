@@ -13,10 +13,13 @@
   <header>
     <h1><?php the_title(); ?></h1>
     <div class="meta">
-      <p>Published by <?php the_author_posts_link(); ?> on <?php echo get_the_date(); ?><br />
-        Categories: <span><?php the_category(' '); ?><br />
+      <p><?php _e('Published by', 'fancy-lab'); ?> <?php the_author_posts_link(); ?> <?php _e('on', 'fancy-lab'); ?> <?php echo get_the_date(); ?><br />
+        <?php if (has_category()) : ?>
+          <?php _e('Categories', 'fancy-lab'); ?>: <span><?php the_category(' '); ?>
+          <?php endif; ?>
+          <br />
           <?php if (has_tag()) : ?>
-            Tags: <span><?php the_tags('', ', '); ?></span>
+            <?php _e('Tags', 'fancy-lab'); ?>: <span><?php the_tags('', ', '); ?></span>
           <?php endif; ?>
       </p>
     </div>
@@ -32,7 +35,7 @@
     <?php
     wp_link_pages(
       array(
-        'before'      =>  '<p class="inner-pagination">' . 'Pages',
+        'before'      =>  '<p class="inner-pagination">' . __('Pages', 'fancy-lab'),
         'after'       =>  '</p>',
       )
     );
