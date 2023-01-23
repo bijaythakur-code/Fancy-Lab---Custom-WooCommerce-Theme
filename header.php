@@ -33,7 +33,7 @@
 			<section class="top-bar">
 				<div class="container">
 					<div class="row">
-						<div class="brand col-md-3 col-12 col-lg-2 text-center text-md-left">esc_html
+						<div class="brand col-md-3 col-12 col-lg-2 text-center text-md-left">
 							<a href="<?php echo esc_url(home_url('/')); ?>">
 								<?php if (has_custom_logo()) : ?>
 									<?php the_custom_logo(); ?>
